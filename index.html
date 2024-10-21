@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <div class="name">PORTFOLIO</div> <!-- Added this line -->
+            <div class="links">
+                <a href="C:\Users\douni\Downloads\CV_Dounia (6).pdf" target="_blank"> &#8595; CV
+                    <!-- <img src="C:\Users\douni\Downloads\telechargement.png" alt="CV Icon" class="icon"> CV -->
+                </a>
+                <a href="https://www.linkedin.com/in/dounia-bougamza" target="_blank">
+                    <img src="C:\Users\douni\Downloads\linkedin.png" alt="LinkedIn Icon" class="icon"> LinkedIn
+                </a>
+                <a href="mailto:douniabgz@gmail.com">
+                    <img src="C:\Users\douni\Downloads\email.png" alt="Email Icon" class="icon"> Email
+                </a>
+                <div class="language-switcher">
+                    <img src="C:\Users\douni\Downloads\drapeauFR.png" alt="French Flag" class="flag">
+                    <img src="C:\Users\douni\Downloads\drapeauRU.png" alt="UK Flag" class="flag">
+                </div>
+            </div>
+        </header>
+
+        <section class="intro">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <h2>Salut, c'est Dounia 👋</h2>
+                    <p>🎂 J'ai 22 ans</p>
+                    <p>📍 Je viens de Paris</p>
+                    <p>🎓 Je suis étudiante en ingénierie, passionnée par le développement web, la data et l'intelligence artificielle.</p>
+                    <p>Je souhaite mettre à profit mes compétences pour aider les entreprises à optimiser leurs processus, améliorant ainsi leur efficacité et leur productivité.</p>
+                </div>
+                <img src="C:\Users\douni\Downloads\photo.jpeg" alt="Dounia's Photo" class="profile-photo">
+            </div>
+        </section>
+        
+
+        <nav class="menu">
+            <a href="#about" id="about-link">&lt;/&gt; A propos</a>
+            <a href="#projects" id="projects-link">🖉 Projets / Expériences</a>
+            <a href="#skills">🖉 Compétences</a>
+        </nav>
+
+        <!-- Section "À propos" -->
+        <div id="about" style="display: none;">
+            <h2>À propos</h2>
+            
+            <!-- Contenu de la première photo -->
+            <div class="about-content">
+                <img src="C:\Users\douni\Downloads\GustaveMonod.png" alt="Gustave Monod" class="school-photo">
+                <div class="about-text">
+                    <p>C'est ici que tout a commencé, lorsque j'ai intégré une classe préparatoire aux grandes écoles. 
+                    J'ai d'abord suivi la spécialité MPSI - Mathématiques, Physique et Sciences de l'Ingénieur, avant de poursuivre en MP.<br>
+                    <br>
+                    Le rythme, bien plus intense qu'au lycée, m'a poussée à me surpasser.
+                    Aujourd'hui, je suis très fière de ce parcours !</p>
+                </div>
+            </div>
+
+            <!-- Contenu de la deuxième photo -->
+            <div class="about-content2">
+                <div class="about2-text">
+                    <p>Par la suite, j'ai intégré l'ESILV, une superbe école d'ingénieurs.<br>
+                        J'y ai choisi la spécialité en Data et Intelligence Artificielle et j'ai eu l'opportunité de faire partie des étudiants-chercheurs de l'établissement.  </p>
+                </div>
+                <img src="C:\Users\douni\Downloads\ESILV.png" alt="ESILV" class="school2-photo">
+            </div>
+
+            <br>
+            <br>
+            <h2>Mes centres d'intérêts ! </h2>
+            <!-- A propos perso -->
+            <div class="about-content3">
+                <p>Dans cette rubrique, je vous invite à découvrir mes différents centres d'intérêt !
+                </p>
+                <div class="interests-section">
+                    <div class="interest-item">
+                        <img src="C:\Users\douni\Downloads\basketball1.png" alt="Basketball" class="circle-image">
+                        <div class="overlay">
+                            <p>Le basketball, ma passion sportive.</p>
+                        </div>
+                    </div>
+                    <div class="interest-item">
+                        <img src="C:\Users\douni\Downloads\Voyage.png" alt="Voyage" class="circle-image">
+                        <div class="overlay">
+                            <p>Explorer de nouvelles cultures.</p>
+                        </div>
+                    </div>
+                    <div class="interest-item">
+                        <img src="C:\Users\douni\Downloads\patisserie.png" alt="Cuisine" class="circle-image">
+                        <div class="overlay">
+                            <p>La cuisine, mon art créatif.</p>
+                        </div>
+                    </div>
+                    <div class="interest-item">
+                        <img src="C:\Users\douni\Downloads\Humanitaire.png" alt="Engagement Humanitaire" class="circle-image">
+                        <div class="overlay">
+                            <p>S'engager pour aider les autres.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        
+
+
+        <div id="projects" style="display: none;">
+            <h2>Projets</h2>
+            <div class="toggle-button">
+                <button class="left-segment active" id="business-projects-btn">Projets en entreprise</button>
+                <button class="right-segment" id="research-projects-btn">Projets de recherche</button>
+            </div>
+        
+            <div id="business-projects" style="display: block;">
+                <p>Dans cette rubrique, je vous invite à découvrir mes expériences professionnelles</p>
+                <div class="project-carousel">
+                    <button class="carousel-btn prev-btn" onclick="prevProject()">&#10094;</button>
+                    
+                    <div class="carousel-content">
+                      <div class="project-item active">
+                        <img src="C:\Users\douni\Downloads\Bot (1).png" alt="Project 1">
+                        <h3>UrbanBot</h3>
+                        <p>Boostez la Productivité d'une Startup</p>
+                      </div>
+                      <div class="project-item">
+                        <img src="C:\Users\douni\Downloads\DataQuality1 (1).png" alt="Project 2">
+                        <h3>Data Quality</h3>
+                        <p>Description du deuxième projet ici.</p>
+                      </div>
+                      <!-- Ajoute plus de projets ici -->
+                    </div>
+                  
+                    <button class="carousel-btn next-btn" onclick="nextProject()">&#10095;</button>
+                  </div>
+                  
+
+                <!-- <section class="experience-buttons">
+                    <div class="button-container" id="experience1">
+                        <button class="experience-button">
+                            <img src="C:\Users\douni\Downloads\dataQuality.png" alt="Experience 1">
+                            <p>Data Quality</p>
+                        </button>
+
+                    </div>
+                
+                    <div class="button-container" id="experience2">
+                        <button class="experience-button">
+                            <img src="C:\Users\douni\Downloads\chatBot.png" alt="Experience 2">
+                            <p>UrbanBot</p>
+                        </button>
+                    </div>
+                </section> -->
+            </div>
+        
+            <div id="research-projects" style="display: none;">
+                <p>Dans cette rubrique, je vous invite à découvrir mon parcours en Recherche & Développement</p>
+                <div class="project-carousel">
+                    <button class="carousel-btn prev-btn" onclick="prevProject()">&#10094;</button>
+                    <div class="carousel-content">
+                      <div class="project-item active">
+                        <img src="C:\Users\douni\Downloads\Avatard.png" alt="Project 1">
+                        <h3>E-avatar: Hybrid education through Pose estimation and Mixed Reality</h3>
+                        <p>...</p>
+                      </div>
+                      <div class="project-item">
+                        <img src="C:\Users\douni\Downloads\DataQuality1 (1).png" alt="Project 2">
+                        <h3>MMGait: A Multi-Modal Approach for Gait Recognition with Structural and Dynamic Features</h3>
+                        <p>...</p>
+                      </div>
+                      <!-- Ajoute plus de projets ici -->
+                    </div>
+                    <button class="carousel-btn next-btn" onclick="nextProject()">&#10095;</button>
+                  </div>
+            </div>
+        </div>
+
+    
+
+        
+        
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
