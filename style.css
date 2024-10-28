@@ -32,13 +32,15 @@
     }
 }
 
+
+
 body, html {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f7f757;
+    background-color: #ebece7;
 }
 
 .container {    
