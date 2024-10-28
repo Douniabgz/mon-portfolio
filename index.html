@@ -1,31 +1,28 @@
-<!-- pour mettre le signe en ligne > utiliser github  mettre le projet en public et aller dans pages > build and deployment > main > save > et apres apparait le lien -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
 </head>
 <body>
     <div class="container"> 
         <header>
-            <div class="name">PORTFOLIO</div> <!-- Added this line -->
+            <div class="name">PORTFOLIO</div>
             <div class="links">
-                <a href="images\CV_Dounia (6).pdf" target="_blank"> &#8595; CV
-                    <!-- <img src="C:\Users\douni\Downloads\telechargement.png" alt="CV Icon" class="icon"> CV -->
-                </a>
+                <a href="images/CV_Dounia (6).pdf" target="_blank"> &#8595; CV</a>
                 <a href="https://www.linkedin.com/in/dounia-bougamza" target="_blank">
-                    <img src="images\linkedin.png" alt="LinkedIn Icon" class="icon"> LinkedIn
+                    <img src="images/linkedin.png" alt="LinkedIn Icon" class="icon"> LinkedIn
                 </a>
                 <a href="mailto:douniabgz@gmail.com">
-                    <img src="images\email.png" alt="Email Icon" class="icon"> Email
+                    <img src="images/email.png" alt="Email Icon" class="icon"> Email
                 </a>
                 <div class="language-switcher">
-                    <img src="images\drapeauFR.png" alt="French Flag" class="flag">
-                    <img src="images\drapeauRU.png" alt="UK Flag" class="flag">
+                    <img src="images/drapeauFR.png" alt="French Flag" class="flag">
+                    <img src="images/drapeauRU.png" alt="UK Flag" class="flag">
                 </div>
             </div>
         </header>
@@ -43,77 +40,52 @@
             </div>
         </section>
         
-
         <nav class="menu">
             <a href="#about" id="about-link">&lt;/&gt; A propos</a>
             <a href="#projects" id="projects-link">🖉 Projets / Expériences</a>
-            <a href="#skills">🖉 Compétences</a>
+            <a href="#skills" id="skills-link">🖉 Compétences</a>
         </nav>
 
         <!-- Section "À propos" -->
         <div id="about" style="display: none;">
             <h2>À propos</h2>
-            
-            <!-- Contenu de la première photo -->
             <div class="about-content">
-                <img src="images\GustaveMonod.png" alt="Gustave Monod" class="school-photo">
+                <img src="images/GustaveMonod.png" alt="Gustave Monod" class="school-photo">
                 <div class="about-text">
-                    <p>C'est ici que tout a commencé, lorsque j'ai intégré une classe préparatoire aux grandes écoles. 
-                    J'ai d'abord suivi la spécialité MPSI - Mathématiques, Physique et Sciences de l'Ingénieur, avant de poursuivre en MP.<br>
-                    <br>
-                    Le rythme, bien plus intense qu'au lycée, m'a poussée à me surpasser.
-                    Aujourd'hui, je suis très fière de ce parcours !</p>
+                    <p>C'est ici que tout a commencé, lorsque j'ai intégré une classe préparatoire aux grandes écoles. J'ai d'abord suivi la spécialité MPSI - Mathématiques, Physique et Sciences de l'Ingénieur, avant de poursuivre en MP.<br><br>Le rythme, bien plus intense qu'au lycée, m'a poussée à me surpasser. Aujourd'hui, je suis très fière de ce parcours !</p>
                 </div>
             </div>
 
-            <!-- Contenu de la deuxième photo -->
             <div class="about-content2">
                 <div class="about2-text">
-                    <p>Par la suite, j'ai intégré l'ESILV, une superbe école d'ingénieurs.<br>
-                        J'y ai choisi la spécialité en Data et Intelligence Artificielle et j'ai eu l'opportunité de faire partie des étudiants-chercheurs de l'établissement.  </p>
+                    <p>Par la suite, j'ai intégré l'ESILV, une superbe école d'ingénieurs. J'y ai choisi la spécialité en Data et Intelligence Artificielle et j'ai eu l'opportunité de faire partie des étudiants-chercheurs de l'établissement.</p>
                 </div>
-                <img src="images\ESILV.png" alt="ESILV" class="school2-photo">
+                <img src="images/ESILV.png" alt="ESILV" class="school2-photo">
             </div>
 
-            <br>
-            <br>
-            <h2>Mes centres d'intérêts ! </h2>
-            <!-- A propos perso -->
+            <h2>Mes centres d'intérêts !</h2>
             <div class="about-content3">
-                <p>Dans cette rubrique, je vous invite à découvrir mes différents centres d'intérêt !
-                </p>
+                <p>Dans cette rubrique, je vous invite à découvrir mes différents centres d'intérêt !</p>
                 <div class="interests-section">
                     <div class="interest-item">
-                        <img src="images\Basketball.png" alt="Basketball" class="circle-image">
-                        <div class="overlay">
-                            <p>Le basketball, ma passion sportive.</p>
-                        </div>
+                        <img src="images/Basketball.png" alt="Basketball" class="circle-image">
+                        <div class="overlay"><p>Le basketball, ma passion sportive.</p></div>
                     </div>
                     <div class="interest-item">
-                        <img src="images\Voyage.png" alt="Voyage" class="circle-image">
-                        <div class="overlay">
-                            <p>Explorer de nouvelles cultures.</p>
-                        </div>
+                        <img src="images/Voyage.png" alt="Voyage" class="circle-image">
+                        <div class="overlay"><p>Explorer de nouvelles cultures.</p></div>
                     </div>
                     <div class="interest-item">
-                        <img src="images\patisserie.png" alt="Cuisine" class="circle-image">
-                        <div class="overlay">
-                            <p>La cuisine, mon art créatif.</p>
-                        </div>
+                        <img src="images/saintClair.jpg" alt="Cuisine" class="circle-image">
+                        <div class="overlay"><p>La cuisine, mon art créatif.</p></div>
                     </div>
                     <div class="interest-item">
-                        <img src="images\Humanitaire.png" alt="Engagement Humanitaire" class="circle-image">
-                        <div class="overlay">
-                            <p>S'engager pour aider les autres.</p>
-                        </div>
+                        <img src="images/humain.png" alt="Engagement Humanitaire" class="circle-image">
+                        <div class="overlay"><p>S'engager pour aider les autres.</p></div>
                     </div>
                 </div>
-                
             </div>
         </div>
-
-        
-
 
         <div id="projects" style="display: none;">
             <h2>Projets</h2>
@@ -123,44 +95,108 @@
             </div>
         
             <div id="business-projects" style="display: block;">
-                <p>Dans cette rubrique, je vous invite à découvrir mes expériences professionnelles</p>
-                <div class="project-carousel">
-                    <button class="carousel-btn prev-btn" onclick="prevProject()">&#10094;</button>
+                <p>Dans cette rubrique, je vous invite à découvrir mes expériences professionnelles :</p>
+                <div class="project-section">
+                    <div class="project-grid">
+                        <div class="project-card" onclick="openModal('modal1')">
+                            <img src="images/qualitededonnee.png" alt="Projet de Traçabilité">
+                            <h3>DataQuality</h3>
+                            <p>Automatisation du contrôle de qualité de données</p>
+                            <div class="tech-icons">
+                                <img src="images/PySpark.png" alt="PySpark" title="PySpark" class="tech-icon">
+                                <img src="images/MicrosoftFabric.png" alt="Microsoft Fabric" title="Microsoft Fabric" class="tech-icon">
+                            </div>
+                        </div>
+                        <div class="project-card" onclick="openModal('modal2')">
+                            <img src="images/PLUchatbot.png" alt="Autre Projet">
+                            <h3>UrbanBot</h3>
+                            <p>Réaliser un MVP (Minimum Viable Product) du chatbot</p>
+                            <div class="tech-icons">
+                                <img src="images/terraform.png" alt="PySpark" title="PySpark" class="tech-icon">
+                                <img src="images/MistralAI.png" alt="Microsoft Fabric" title="Microsoft Fabric" class="tech-icon">
+                            </div>
+                        </div>
+                        <div class="project-card" onclick="openModal('modal3')">
+                            <img src="images/DrugConsumption.png" alt="Projet de Données">
+                            <h3>Drug Consumption</h3>
+                            <p>Analyser l'impact de la consommation de drogues sur la population</p>
+                            <div class="tech-icons">
+                                <img src="images/django.png" alt="PySpark" title="PySpark" class="tech-icon">
+                                <img src="images/skitlearn.png" alt="Microsoft Fabric" title="Microsoft Fabric" class="tech-icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modales -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal('modal1')">&times;</span>
+                            <h2>Data Quality</h2>
+                            <img src="images/criteres.png" alt="PySpark" title="PySpark" class="tech-icon">
+                            <p class="project-description">
+                                Ce projet vise à automatiser le processus de contrôle de qualité des données en utilisant PySpark sur la plateforme Microsoft Fabric.<br>
+                                L'objectif est d'améliorer l'efficacité et la précision dans l'identification et la correction des erreurs de données.<br><br>
+                                Différentes étapes :<br>
+                                • <strong>Collecte des données :</strong> Extraction des données de différentes sources et formats.<br>
+                                • <strong>Validation :</strong> Application de règles de validation pour détecter les anomalies et les incohérences.<br>
+                                • <strong>Analyse :</strong> Identification des problèmes de qualité des données et des opportunités d'amélioration.<br>
+                                • <strong>Reporting :</strong> Génération de rapports sur la qualité des données, fournissant des insights pour des décisions éclairées.<br><br>
+                                Résultats : Tableau sortant avec toutes les erreurs détectées, visualisation du nombre d'erreurs et d'avertissements sous forme de graphiques et de chiffres.<br>
+                                <div class="image-container">
+                                    <img src="images/avanade.png" alt="Avanade" title="Avanade" class="logo-entreprise">
+                                    <img src="images/vinci.png" alt="Vinci" title="Vinci" class="logo-entreprise">
+                                </div>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal('modal2')">&times;</span>
+                            <h2>UrbanBot - Chatbot pour le Plan Local d'Urbanisme Bioclimatique</h2>
+                            <p class="project-description">
+                                Ce projet s'inscrit dans le cadre de la révision du Plan Local d'Urbanisme (PLU) de Paris, avec le déploiement prévu du PLUb fin 2024.<br>
+                                UrbanBot vise à créer un portail numérique Lutèce qui permet aux usagers de naviguer et consulter facilement le PLUb.<br><br>
+                                <strong>Fonctionnalités du SI PLU :</strong><br>
+                                • <strong>Navigation :</strong> Accès aux plans interactifs et aux informations par parcelle.<br>
+                                • <strong>Documentation :</strong> Consultation des règles et documents officiels.<br>
+                                • <strong>Outils d'aide :</strong> Compréhension facilitée des règles urbanistiques et des documents du PLUb.<br>
+                                • <strong>Chatbot spécialisé :</strong> Réponses synthétiques et non engageantes pour guider l'usager.<br><br>
+                                <strong>Solution :</strong> UrbanBot est un MVP du chatbot déployé avec le LLM Mixtral de MistralAI sur Microsoft Azure. Il utilise la technique de RAG (Retrieval Augmented Generation) pour contextualiser les réponses grâce aux données propres du PLUb.<br><br>
+                                <strong>Outils et Technologies :</strong><br>
+                                • <strong>Terraform :</strong> Infrastructure Cloud Azure sécurisée pour définir les droits et les calculs.<br>
+                                • <strong>Microsoft Azure :</strong> Déploiement et gestion de la plateforme Cloud pour le chatbot.<br><br>
+                                <strong>Résultats et Objectifs :</strong><br>
+                                Le chatbot vise à fournir des réponses précises aux questions des citoyens sur les règlements urbains de Paris, avec un déploiement final début 2025. Les prochaines étapes incluent des tests approfondis, des ajustements d’après les retours, et l'intégration au SI de la Ville de Paris.<br><br>
+                                <div class="image-container">
+                                    <img src="images/avanade.png" alt="avanade" title="avanade" class="logo-entreprise">
+                                    <img src="images/paris.png" alt="paris" title="paris" class="logo-entreprise">
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="modal3" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal('modal3')">&times;</span>
+                            <h2>Drug Consumption - Analyse et Prédiction de la Consommation de Drogues</h2>
+                            <p class="project-description">
+                                <strong>Objectif :</strong> Ce projet vise à analyser et prédire les comportements liés à la consommation de drogues, en exploitant un ensemble de données spécifique et divers modèles de machine learning.<br>
+                                <strong>Database :</strong> <a href="https://archive.ics.uci.edu/dataset/373/drug+consumption+quantified" target="_blank">UC Irvine Machine Learning Repository</a><br><br>
+                                <strong>Technologies :</strong><br>
+                                • Python<br>
+                                • Modèles de machine learning : Random Forest, Decision Tree, K-Neighbors, et Logistic Regression<br><br>
+                                <strong>Résultats :</strong><br>
+                                • Visualisations et prédictions interprétables permettant de mieux comprendre les facteurs influençant la consommation de drogues.<br><br>
+                                <strong>Lien :</strong> <a href="https://github.com/Douniabgz/DrugConsumption/" target="_blank">Voir le projet sur GitHub</a>
+                                <div class="image-container">
+                                    <img src="images/esilv-projet.png" alt="esilv" title="esilv" class="logo-entreprise">
+                                </div>
+                            </p>
+                        </div>
+                    </div>
                     
-                    <div class="carousel-content">
-                      <div class="project-item active">
-                        <img src="images\Bot (1).png" alt="Project 1">
-                        <h3>UrbanBot</h3>
-                        <p>Boostez la Productivité d'une Startup</p>
-                      </div>
-                      <div class="project-item">
-                        <img src="images\DataQuality1.png" alt="Project 2">
-                        <h3>Data Quality</h3>
-                        <p>Description du deuxième projet ici.</p>
-                      </div>
-                      <!-- Ajoute plus de projets ici -->
-                    </div>
-                  
-                    <button class="carousel-btn next-btn" onclick="nextProject()">&#10095;</button>
-                  </div>
-                  
-
-                <!-- <section class="experience-buttons">
-                    <div class="button-container" id="experience1">
-                        <button class="experience-button">
-                            <img src="images\dataQuality.png" alt="Experience 1">
-                            <p>Data Quality</p>
-                        </button>
-
-                    </div>
-                
-                    <div class="button-container" id="experience2">
-                        <button class="experience-button">
-                            <img src="images\chatBot.png" alt="Experience 2">
-                            <p>UrbanBot</p>
-                        </button>
-                    </div>
-                </section> -->
+                </div>
             </div>
         
             <div id="research-projects" style="display: none;">
@@ -168,32 +204,84 @@
                 <div class="project-carousel">
                     <button class="carousel-btn prev-btn" onclick="prevProject()">&#10094;</button>
                     <div class="carousel-content">
-                      <div class="project-item active">
-                        <img src="images\conf.png" alt="Project 1">
-                        <h3>E-avatar: Hybrid education through Pose estimation and Mixed Reality</h3>
-                        <p>...</p>
-                      </div>
-                      <div class="project-item">
-                        <img src="images\DataQuality1.png" alt="Project 2">
-                        <h3>MMGait: A Multi-Modal Approach for Gait Recognition with Structural and Dynamic Features</h3>
-                        <p>...</p>
-                      </div>
-                      <!-- Ajoute plus de projets ici -->
+                        <div class="project-item active">
+                            <h2>Gesture Recognition, Holoportation, and Mixed Reality for Hybrid Education</h2>
+                            <img src="images/conf.png" alt="E-avatar" class="project-image">
+                            <p class="project-description">
+                                <strong>Participation :</strong> Présentation du projet lors de la conférence ICTO2024.<br><br>
+                                <strong>Objectif :</strong> Ce projet propose une nouvelle méthode de communication entre enseignants et étudiants à distance, en combinant reconnaissance gestuelle, holoportation et réalité mixte pour améliorer l’interaction et l’engagement dans l'éducation hybride.<br><br>
+                                <strong>Méthodologie :</strong><br>
+                                • <strong>Reconnaissance des gestes :</strong> Utilisation de la bibliothèque MediaPipe pour détecter les positions en 3D des points corporels.<br>
+                                • <strong>Avatar personnalisé :</strong> Intégration de l'avatar dans Unity en utilisant les points clés capturés pour une interaction immersive en temps réel.<br>
+                                • <strong>Holoportation :</strong> Utilisation d’un casque de réalité mixte pour permettre aux enseignants de visualiser les avatars holographiques de leurs étudiants en temps réel.<br><br>
+                                <strong>Lien :</strong> <a href="https://www.overleaf.com/read/qskbsdhdypqp#b27c0d" target="_blank">Voir le projet sur Overleaf</a>
+                            </p>
+                        </div>
+                        <div class="project-item">
+                            <h2>MMGait: A Multi-Modal Approach for Gait Recognition</h2>
+                            <img src="images/gaitRecognition.png" alt="MMGait" class="project-image">
+                            <p class="project-description">
+                                <strong>Objectif :</strong> Développer une méthode de reconnaissance de démarche multi-modale combinant des caractéristiques structurelles et dynamiques pour améliorer la précision et la robustesse du modèle face aux conditions externes.<br><br>
+                                <strong>Méthodologie :</strong><br>
+                                • <strong>Sélection de caractéristiques :</strong> Utilisation de la corrélation croisée et du clustering hiérarchique pour réduire la dimensionnalité des données et sélectionner les caractéristiques les plus pertinentes.<br>
+                                • <strong>Modèle multi-modal CNN :</strong> Intégration des informations de silhouette (GEIs) et des données de pose 3D pour créer une architecture CNN robuste contre les variations d'angle et de vêtements.<br><br>
+                                <strong>Résultats :</strong> Les tests montrent une performance de pointe (State-of-the-Art) sur le dataset OUMVLP, avec une robustesse face aux variations de points de vue et conditions vestimentaires.<br>
+                            </p>
+                        </div>
                     </div>
                     <button class="carousel-btn next-btn" onclick="nextProject()">&#10095;</button>
-                  </div>
+                </div>
             </div>
         </div>
 
-    
+        <div id="skills" style="display: none;">
+            <h2>Compétences</h2>
+            <div class="skills-section">
+                <p>Dans cette rubrique, je vous invite à découvrir mes compétences en ingénierie.</p>
+        
+                <div class="skill-category">
+                    <h3>Data Analysis</h3>
+                    <div class="skill-logos">
+                        <img src="images/logo-python.png" alt="Python" class="logo">
+                        <img src="images/sql-logo.png" alt="SQL" class="logo-sql">
+                        <img src="images/powerbi-logo.png" alt="Tableau" class="logo">
+                    </div>
+                </div>
+        
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-logos">
+                        <img src="images/webdev.png" alt="HTML" class="logo-webdev">
+                    </div>
+                </div>
 
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <div class="skill-logos">
+                        <img src="images/skitlearnsanscontour.png" alt="skitlearn" class="logo">
+                        <img src="images/tensorflow.png" alt="tensorflow" class="logo-tensor">
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Gestion de projets</h3>
+                    <div class="skill-logos">
+                        <img src="images/scrum.png" class="logo-sql">
+                        <img src="images/mbti.png" class="logo-sql">
+                    </div>
+                </div>
+                
+                <!-- Add more skill categories as needed -->
+            </div>
+        </div>
         
         
+
+        <footer>
+            <p>&copy; 2024 Dounia Bougamza. Tous droits réservés.</p>
+        </footer>
     </div>
-
     
-
     <script src="script.js"></script>
-
 </body>
 </html>
