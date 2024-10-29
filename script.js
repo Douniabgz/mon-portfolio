@@ -207,79 +207,95 @@
 document.addEventListener('DOMContentLoaded', () => {
     const translations = {
         en: {
-            greeting: "Hello, I'm Dounia 👋",
-            age: "🎂 I'm 22 years old",
-            location: "📍 I'm from Paris",
-            student: "🎓 I am an engineering student, passionate about web development, data, and artificial intelligence.",
-            goal: "I want to use my skills to help companies optimize their processes, thus improving their efficiency and productivity.",
-            about: "</> About",
-            projects: "🖉 Projects / Experiences",
-            skills: "🖉 Skills",
-            aboutHeading: "About",
-            aboutText1: "This is where it all started, when I joined a preparatory class for engineering schools.",
-            aboutText2: "Later, I joined ESILV, a great engineering school.",
-            interestsHeading: "My Interests !",
-            interestBasketball: "Basketball, my sporting passion.",
-            interestTravel: "Exploring new cultures.",
-            interestCooking: "Cooking, my creative art.",
-            interestHumanitarian: "Helping others through humanitarian work.",
-            projectsHeading: "Projects",
-            businessProjectsText: "In this section, I invite you to discover my professional experiences.",
-            researchProjectsText: "In this section, I invite you to explore my research & development journey.",
+            // greeting: "Hello, I'm Dounia 👋",
+            // age: "🎂 I'm 22 years old",
+            // location: "📍 I'm from Paris",
+            // student: "🎓 I am an engineering student, passionate about web development, data, and artificial intelligence.",
+            // goal: "I want to use my skills to help companies optimize their processes, thus improving their efficiency and productivity.",
+            // about: "&lt;/&gt; About",
+            // projects: "🖉 Projects / Experiences",
+            // skills: "🖉 Skills",
+            // aboutHeading: "About",
+            // aboutText1: "This is where it all started, when I joined a preparatory class for the grandes écoles. I first followed the MPSI specialty - Mathematics, Physics and Engineering Sciences, before continuing in MP.<br><br>The pace, much more intense than in high school, pushed me to surpass myself. Today, I am very proud of this journey !",
+            // aboutText2: "Afterwards, I joined ESILV, a superb engineering school. I chose the Data and Artificial Intelligence specialty there and I had the opportunity to be one of the establishment's student researchers.",
+            // interestsHeading: "My Interests !",
+            // interestBasketball: "Basketball, my sporting passion.",
+            // interestTravel: "Exploring new cultures.",
+            // interestCooking: "Cooking, my creative art.",
+            // interestHumanitarian: "Helping others through humanitarian work.",
+            // projectsHeading: "Projects",
+            // businessProjectsText: "In this section, I invite you to discover my professional experiences.",
+            // researchProjectsText: "In this section, I invite you to explore my research & development journey.",
             businessProjects: "Business Projects",  // Translation for the button
             researchProjects: "Research Projects", // Translation for the button
-            interestsIntro: "In this section, I invite you to discover my different interests!"
+            // interestsIntro: "In this section, I invite you to discover my different interests!",
+
+
+            // data_quality_description: 'Automation of data quality control',
+            // urbanbot_description: 'Developing a chatbot MVP (Minimum Viable Product)',
+
+            // description: "MMGait: A Multi-Modal Approach for Gait Recognition with Structural and Dynamic Features."
+                    
         },
         fr: {   
-            greeting: "Salut, je suis Dounia 👋",
-            age: "🎂 J'ai 22 ans",
-            location: "📍 Je viens de Paris",
-            student: "🎓 Je suis étudiante en ingénierie, passionnée par le développement web, la data et l'intelligence artificielle.",
-            goal: "Je souhaite mettre à profit mes compétences pour aider les entreprises à optimiser leurs processus, améliorant ainsi leur efficacité et leur productivité.",
-            about: "</> À propos",
-            projects: "🖉 Projets / Expériences",
-            skills: "🖉 Compétences",
-            aboutHeading: "À propos",
-            aboutText1: "C'est ici que tout a commencé, lorsque j'ai intégré une classe préparatoire aux grandes écoles.",
-            aboutText2: "Par la suite, j'ai intégré l'ESILV, une superbe école d'ingénieurs.",
-            interestsHeading: "Mes centres d'intérêts !",
-            interestBasketball: "Le basketball, ma passion sportive.",
-            interestTravel: "Explorer de nouvelles cultures.",
-            interestCooking: "La cuisine, mon art créatif.",
-            interestHumanitarian: "S'engager pour aider les autres.",
-            projectsHeading: "Projets",
-            businessProjectsText: "Dans cette rubrique, je vous invite à découvrir mes expériences professionnelles.",
-            researchProjectsText: "Dans cette rubrique, je vous invite à découvrir mon parcours en Recherche & Développement.",
+            // greeting: "Salut, je suis Dounia 👋",
+            // age: "🎂 J'ai 22 ans",
+            // location: "📍 Je viens de Paris",
+            // student: "🎓 Je suis étudiante en ingénierie, passionnée par le développement web, la data et l'intelligence artificielle.",
+            // goal: "Je souhaite mettre à profit mes compétences pour aider les entreprises à optimiser leurs processus, améliorant ainsi leur efficacité et leur productivité.",
+            // about: "&lt;/&gt; A propos",
+            // projects: "🖉 Projets / Expériences",
+            // skills: "🖉 Compétences",
+            // aboutHeading: "À propos",
+            // aboutText1: "C'est ici que tout a commencé, lorsque j'ai intégré une classe préparatoire aux grandes écoles.J'ai d'abord suivi la spécialité MPSI - Mathématiques, Physique et Sciences de l'Ingénieur, avant de poursuivre en MP.<br><br>Le rythme, bien plus intense qu'au lycée, m'a poussée à me surpasser. Aujourd'hui, je suis très fière de ce parcours !<br>",
+            // aboutText2: "Par la suite, j'ai intégré l'ESILV, une superbe école d'ingénieurs. J'y ai choisi la spécialité en Data et Intelligence Artificielle et j'ai eu l'opportunité de faire partie des étudiants-chercheurs de l'établissement.",
+            // interestsHeading: "Mes centres d'intérêts !",
+            // interestBasketball: "Le basketball, ma passion sportive.",
+            // interestTravel: "Explorer de nouvelles cultures.",
+            // interestCooking: "La cuisine, mon art créatif.",
+            // interestHumanitarian: "S'engager pour aider les autres.",
+            // projectsHeading: "Projets",
+            // businessProjectsText: "Dans cette rubrique, je vous invite à découvrir mes expériences professionnelles.",
+            // researchProjectsText: "Dans cette rubrique, je vous invite à découvrir mon parcours en Recherche & Développement.",
             businessProjects: "Projets en entreprise",  // Translation for the button
             researchProjects: "Projets de recherche", // Translation for the button  
-            interestsIntro: "Dans cette rubrique, je vous invite à découvrir mes différents centres d'intérêt !"
+            // interestsIntro: "Dans cette rubrique, je vous invite à découvrir mes différents centres d'intérêt !",
+
+            // data_quality_description: 'Automatisation du contrôle de qualité de données',
+            // urbanbot_description: 'Réaliser un MVP (Minimum Viable Product) du chatbot',
+
+
+            // description: "MMGait : Une approche multimodale pour la reconnaissance de la démarche avec des caractéristiques structurelles et dynamiques."
+               
         }
     };
   
     // Elements to translate
     const elementsToTranslate = {
-        greeting: document.querySelector('.intro h2'),
-        age: document.querySelector('.intro p:nth-child(2)'),
-        location: document.querySelector('.intro p:nth-child(3)'),
-        student: document.querySelector('.intro p:nth-child(4)'),
-        goal: document.querySelector('.intro p:nth-child(5)'),
-        about: document.querySelector('.menu a[href="#about"]'),
-        projects: document.querySelector('.menu a[href="#projects"]'),
-        skills: document.querySelector('.menu a[href="#skills"]'),
-        aboutHeading: document.querySelector('#about h2'),
-        aboutText1: document.querySelector('.about-content .about-text p'),
-        aboutText2: document.querySelector('.about-content2 .about2-text p'),
-        interestsHeading: document.querySelector('#about h2:nth-of-type(2)'),
-        interestBasketball: document.querySelector('.interest-item:nth-child(1) .overlay p'),
-        interestTravel: document.querySelector('.interest-item:nth-child(2) .overlay p'),
-        interestCooking: document.querySelector('.interest-item:nth-child(3) .overlay p'),
-        interestHumanitarian: document.querySelector('.interest-item:nth-child(4) .overlay p'),
-        projectsHeading: document.querySelector('#projects h2'),
-        businessProjectsText: document.querySelector('#business-projects p'),
-        researchProjectsText: document.querySelector('#research-projects p'),
+        // greeting: document.querySelector('.intro h2'),
+        // age: document.querySelector('.intro p:nth-child(2)'),
+        // location: document.querySelector('.intro p:nth-child(3)'),
+        // student: document.querySelector('.intro p:nth-child(4)'),
+        // goal: document.querySelector('.intro p:nth-child(5)'),
+        // about: document.querySelector('.menu a[href="#about"]'),
+        // projects: document.querySelector('.menu a[href="#projects"]'),
+        // skills: document.querySelector('.menu a[href="#skills"]'),
+        // aboutHeading: document.querySelector('#about h2'),
+        // aboutText1: document.querySelector('.about-content .about-text p'),
+        // aboutText2: document.querySelector('.about-content2 .about2-text p'),
+        // interestsHeading: document.querySelector('#about h2:nth-of-type(2)'),
+        // interestBasketball: document.querySelector('.interest-item:nth-child(1) .overlay p'),
+        // interestTravel: document.querySelector('.interest-item:nth-child(2) .overlay p'),
+        // interestCooking: document.querySelector('.interest-item:nth-child(3) .overlay p'),
+        // interestHumanitarian: document.querySelector('.interest-item:nth-child(4) .overlay p'),
+        // projectsHeading: document.querySelector('#projects h2'),
+        // businessProjectsText: document.querySelector('#business-projects p'),
+        // researchProjectsText: document.querySelector('#research-projects p'),
         businessProjects: document.querySelector('#business-projects-btn'),
         researchProjects: document.querySelector('#research-projects-btn'),
-        interestsIntro: document.querySelector('.about-content3 p')
+        // interestsIntro: document.querySelector('.about-content3 p'),
+        // projectDescription1: document.querySelector('.project-item h2')
+
     };
   
     // Language change handler
@@ -290,9 +306,15 @@ document.addEventListener('DOMContentLoaded', () => {
             for (const [key, element] of Object.entries(elementsToTranslate)) {
                 element.textContent = translations[selectedLanguage][key];
             }
-        });
+            for (const [key, element] of Object.entries(elementsToTranslate)) {
+                element.innerHTML = translations[selectedLanguage][key];
+            }
+            
+        }); 
     });
   
+
+
     // Projects section toggle
     document.getElementById('projects-link').addEventListener('click', (event) => {
         event.preventDefault();
@@ -474,4 +496,40 @@ window.onload = () => {
 };
 
 
+// test switcher de langue
+function changeLanguage(lang) {
+    document.documentElement.lang = lang;
+  
+    // Met à jour le texte des voiles
+    document.querySelectorAll('.square').forEach(function(element) {
+      const newText = element.getAttribute('data-' + lang);
+      if (newText) {
+        element.setAttribute('data-text', newText);
+      }
+    });
+  
+    // Met à jour le texte des autres éléments
+    document.querySelectorAll('[data-' + lang + ']').forEach(function(element) {
+      const newText = element.getAttribute('data-' + lang);
+      if (newText) {
+        element.textContent = newText;
+        element.innerHTML = newText.replace(/\\n/g, '<br>'); // Remplace \n par <br>
 
+      }
+    });
+  }
+  
+  // Ajoute des écouteurs d'événements pour les drapeaux
+  document.getElementById('fr-toggle').addEventListener('click', function() {
+    changeLanguage('fr');
+  });
+  
+  document.getElementById('en-toggle').addEventListener('click', function() {
+    changeLanguage('en');
+  });
+  
+  // Initialiser la langue par défaut lors du chargement de la page
+  window.addEventListener('load', function() {
+    changeLanguage('fr'); // Initialisation en français
+  });
+  
