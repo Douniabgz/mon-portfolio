@@ -20,6 +20,9 @@
                 <a href="mailto:douniabgz@gmail.com">
                     <img src="images/email.png" alt="Email Icon" class="icon"> Email
                 </a>
+                <a href="#contact">
+                    <img src="images/phone.png" alt="Phone Icon" class="icon"> Contact
+                </a>
                 <div class="language-switcher">
                     <img src="images/drapeauFR.png" alt="French Flag" class="flag" id="fr-toggle">
                     <img src="images/drapeauRU.png" alt="UK Flag" class="flag" id="en-toggle">
@@ -367,6 +370,27 @@
             </div>
         </div>
         
+        <section id="contact" class="contact-hidden">
+            <h2 data-fr="Me Contacter" data-en="Contact Me">Me Contacter</h2>
+            <form action="https://formspree.io/f/mgveaerv" method="POST">
+                <label for="name" data-fr="Nom :" data-en="Last Name :">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="surname" data-fr="Prénom :" data-en="First Name :">Prénom :</label>
+                <input type="text" id="surname" name="surname" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email"  required>
+                
+                <label for="phone"  data-fr="Numéro de téléphone :" data-en="Phone Number :">Numéro de téléphone :</label>
+                <input type="tel" id="phone" name="phone"  required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" data-fr="Envoyer" data-en="Submit">Envoyer</button>
+            </form>
+        </section>
         
 
         <footer>

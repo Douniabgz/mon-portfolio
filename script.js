@@ -533,3 +533,12 @@ function changeLanguage(lang) {
     changeLanguage('fr'); // Initialisation en français
   });
   
+
+//   pour contact
+document.querySelector('a[href="#contact"]').addEventListener('click', function(event) {
+    event.preventDefault(); // Empêche le défilement automatique
+    const contactSection = document.getElementById('contact');
+    contactSection.classList.toggle('contact-hidden'); // Affiche ou masque la section contact
+    contactSection.scrollIntoView({ behavior: 'smooth' }); // Fait défiler la page vers la section contact
+});
+
