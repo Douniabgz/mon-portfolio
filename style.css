@@ -26,20 +26,23 @@
         padding: 5px 10px;
     }
 }
-
+/* 
 @media (max-width: 768px) {
     .profile-photo {
         width: 150px;
         height: 150px;
     }
-}
+} */
 
 
 /* Styles pour les écrans de 768px et moins (tablettes et mobiles) */
 @media (max-width: 768px) {
     .container {
-        width: 95%; /* Utiliser plus de largeur sur mobile */
+        width: 100%; /* Pour que le conteneur occupe toute la largeur de l'écran */
+        padding: 0 10px; /* Ajoute un peu de padding pour éviter que le contenu colle aux bords */
     }
+
+    
 
     .name {
         font-size: 24px; /* Ajustez la taille de la police si nécessaire */
@@ -372,6 +375,8 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    background-color: inherit; /* Hérite la couleur du body */
+
 }
 
 .interest-item {
@@ -471,6 +476,8 @@ body {
 .project-section {
     padding: 20px;
     text-align: center; /* Centrer le texte et les éléments à l'intérieur de la section */
+    background-color: inherit; /* Hérite la couleur du body */
+
   }
   
   /* Grille des projets */
@@ -597,6 +604,8 @@ body {
 
 .skills-section {
     max-width: 600px; /* Largeur maximale pour limiter le texte */
+    background-color: inherit; /* Hérite la couleur du body */
+
     
 }
 
@@ -614,6 +623,8 @@ body {
 .skills-section {
     max-width: 600px; /* Largeur maximale pour limiter le texte */
     padding-left: 500px; /* Ajouter un espacement à gauche pour centrer le contenu */
+    background-color: inherit; /* Hérite la couleur du body */
+
 
 }
 
