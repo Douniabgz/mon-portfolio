@@ -7,6 +7,34 @@
     margin: auto;
 }
 
+/* Style pour les très grands écrans */
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Style pour les petits écrans (jusqu'à 480px) */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    .intro-content {
+        flex-direction: column;
+    }
+    .menu a {
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
 /* Styles pour les écrans de 768px et moins (tablettes et mobiles) */
 @media (max-width: 768px) {
     .container {
